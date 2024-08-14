@@ -16,7 +16,7 @@ public class Exercise2 {
 
 	public static void main(String[] args) {
 		// Find the most populated city of each continent
-		var highPopulatedCityOfEachContinent = 
+		var highPopulatedCityOfEachContinent =
 				countryDao.findAllCountries()
 				          .stream()
 				          .map( country -> country.getCities().stream().map(city -> new ContinentCityPair(country.getContinent(),city)).toList())

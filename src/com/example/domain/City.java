@@ -1,10 +1,12 @@
 package com.example.domain;
 
+import com.example.exercises.ContinentCityPair;
+
 /**
  *
  * @author Binnur Kurt (binnur.kurt@gmail.com)
  */
-public class City {
+public class City{
 	private int id;
 	private String name;
 	private int population;
@@ -12,6 +14,8 @@ public class City {
 
 	public City() {
 	}
+
+
 
 	public City(int id, String name, String countryCode, int population) {
 		this.id = id;
@@ -79,5 +83,4 @@ public class City {
 		return "City [id=" + id + ", name=" + name + ", population="
 				+ population + ", countryCode=" + countryCode + "]";
 	};
-
 }

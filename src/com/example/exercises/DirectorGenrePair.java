@@ -6,4 +6,4 @@ import com.example.domain.Genre;
 /**
  * @author Binnur Kurt <binnur.kurt@gmail.com>
  */
-record DirectorGenrePair(Director director,Genre genre) { }
+public record DirectorGenrePair(Director director,Genre genre) { }
